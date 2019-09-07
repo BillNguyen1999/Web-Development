@@ -1,0 +1,37 @@
+body {
+	width: 700px;
+	margin: 20px auto 20px;
+	border: 15px solid gray;
+	
+}
+
+div {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+h4 {
+	color: #3498db;
+	font-family: source sans pro;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+
+h1 {
+	font-family: source sans pro;
+	color: #2c3e50;
+
+}
+
+p {
+	font-family: source sans pro;
+}
+
+div p:nth-of-type(1) {
+	border-left: 5px solid gray;
+	padding-left: 2%;
+}
+
+div:nth-of-type(1) {
+	border-bottom: 2px solid #f1f1f1;
+}

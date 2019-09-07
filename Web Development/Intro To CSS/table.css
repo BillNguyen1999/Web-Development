@@ -1,0 +1,26 @@
+
+h1 {
+	text-align: center;
+}
+
+
+td {
+	width: 100px;
+	height: 100px;
+}
+
+.vertical {
+	border-right: 3px solid black;
+	border-left: 1px solid black;
+}
+
+tr:nth-of-type(2) td {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+
+}
+
+table {
+	margin: auto; /* makes table to the middle */
+	
+}

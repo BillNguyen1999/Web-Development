@@ -1,0 +1,19 @@
+img {
+	width: 30%;
+	float: left; /*makes all images go left to left */
+	/* for each rox there are 6 margin and 10percent of page left so you 
+	divide 10/6 to 1.66% */
+	margin: 1.66%; 
+
+}
+
+p {
+	font-family: raleway;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-left: 1.66%;
+	border-bottom: 2px solid #f1f1f1;
+	width: 30%;
+	padding-bottom: 20px;
+}

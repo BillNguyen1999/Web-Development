@@ -1,0 +1,60 @@
+body {
+	padding-top: 100px;
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+.navbar-inverse {
+	background: #2c3e50;
+}
+
+/* found from inspect and saw which thing had a higher specificity */
+.navbar-inverse .navbar-nav li a {
+	color: white;
+	font-size: 15px;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+	font-size: 30px;
+}
+
+.card {
+	border-style: solid;
+}
+
+.col-sm-4 {
+
+    padding: 50px;
+}
+
+.col-lg-3 {
+	padding-bottom: 50px;
+}
+img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 80%;
+}
+
+.card-title {
+	text-align: center;
+}
+
+.card-text {
+	font-size: 40px;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.container {
+	padding-bottom: 50px;
+}
